@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+}
+
+.sides-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.side {
+    margin: auto 0 auto 0;
+}
+
+.header > .side {
+    width: 300px;
+}
+
+.logo::before {
+    color: #0DC400;
+}
+
+.logo {
+    font-size: 50px;
+    margin: 5px 0px 5px 10px;
+}
+
+.title {
+    height: 40px;
+}
+
+.title__text{
+    color: #0DC400;
+    font-size: 40px;
+    text-align: center;
+    height: 40px;
+    margin: 0;
+}
+
+.side--links__margin{
+    width: calc(100% - 10px);
+    margin-right: 10px;
+}
+
+.page-links {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.page {
+    text-decoration: none;
+    font-size: 20px;
+    color: #0DC400;
+}
+
+.page:hover {
+    color: white;
+    transition: color 300ms ease-in;
+}
+
+.content {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    display: flex;
+}
+
+.bars {
+    min-height: calc(100vh - 100px);
+}
+
+.main-bar {
+    width: 80%;
+    background-color: rgb(168, 168, 168);
+    display: flex;
+    justify-content: right;
+}
+
+.main-bar__items {
+    width: 994px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.side-bar {
+    width: 20%;
+    background-color: black;
+    display: flex;
+    justify-content: left;
+}
+
+.side-bar__items {
+    color: white;
+    width: 236px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.side__contact {
+    width: 200px;
+    margin: auto 20px auto 20px;
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.contact__info {
+    margin: 0;
+    color: black;
+}
+
+.contact__logo {
+    margin: auto 0 auto 0;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchbar__input {
+    width: 60%;
+}
+
+.searchbar__button {
+    width: 30%;
+}
+
+.side-bar__item {
+    margin: 10px auto 0 auto;
+}
+
+.side-bar--link {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-logo {
+   margin: auto 0 auto 0; 
+}
+
+.link-name {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.main-bar__item {
+    margin: 10px 0 0 0;
+}
+
+.label-div {
+    width: 10%;
+}
+
+.label-div label {
+    text-align: center;
+}
+
+.label-div button {
+    width: 100%;
+}
+
+.info {
+    margin: 5px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-div {
+    width: 85%;
+}
+
+.input-div input {
+    width: 100%;
+}
+
+.input-div textarea {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+}
+
+.table {
+    width: 100%;
+    border-spacing: 0px;
+}
+
+.table tr th {
+    text-align: center;
+    border: 1px solid white;
+    width: calc(100%/3);
+}
+
+.table tr td {
+    text-align: center;
+    border: 1px solid white;
+}
