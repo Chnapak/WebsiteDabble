@@ -48,19 +48,19 @@ body {
     margin-right: 10px;
 }
 
-.page-links {
+.link-wrap {
     display: flex;
     padding: 0;
     justify-content: space-between;
 }
 
-.page {
+.link {
     text-decoration: none;
     font-size: 20px;
     color: #0DC400;
 }
 
-.page:hover {
+.link:hover {
     color: white;
     transition: color 300ms ease-in;
 }
@@ -77,7 +77,7 @@ body {
 
 .main-bar {
     width: 80%;
-    background-color: rgb(168, 168, 168);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: right;
 }
@@ -174,15 +174,15 @@ p {
     margin: 10px 0 0 0;
 }
 
-.label-div {
+.label-wrap {
     width: 10%;
 }
 
-.label-div label {
+.label-wrap label {
     text-align: center;
 }
 
-.label-div button {
+.label-wrap button {
     width: 100%;
 }
 
@@ -192,15 +192,15 @@ p {
     justify-content: space-between;
 }
 
-.input-div {
+.input-wrap {
     width: 85%;
 }
 
-.input-div input {
+.input-wrap input {
     width: 100%;
 }
 
-.input-div textarea {
+.input-wrap textarea {
     width: 100%;
     min-width: 100%;
     max-width: 100%;
